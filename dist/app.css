@@ -1,1 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  padding: 20px;
+  width: 85%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.dark_background {
+  background: #05093c;
+  color: white;
+}
+.dark_background .wrapper {
+  padding: 20px;
+}
+.dark_background .wrapper .navbar_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dark_background .wrapper .navbar_header .corporate_logo {
+  display: flex;
+  align-items: center;
+}
+.dark_background .wrapper .navbar_header .corporate_logo img {
+  width: 160px;
+}
+.dark_background .wrapper .navbar_header .nav_bar {
+  display: flex;
+  align-items: center;
+}
+.dark_background .wrapper .navbar_header .nav_bar .nav_link {
+  display: flex;
+}
+.dark_background .wrapper .navbar_header .nav_bar .nav_link li {
+  padding: 0 10px;
+  font-size: 22px;
+}
+.dark_background .wrapper .navbar_header .nav_bar .nav_link li:first-child a {
+  color: tomato;
+}
+.dark_background .wrapper .navbar_header .nav_bar .nav_link li a {
+  color: white;
+}
+.dark_background .wrapper .navbar_header .nav_bar button {
+  margin-left: 30px;
+}
+.dark_background .wrapper .buttons {
+  color: white;
+  padding: 15px 25px;
+  border-radius: 18px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.dark_background .wrapper .azure_button {
+  border: #2955cc;
+  background: #2955cc;
+}
+.dark_background .wrapper .coral_button {
+  border: #B6246E;
+  background: #F9636B;
+}
+.dark_background .wrapper .text_head {
+  display: flex;
+  padding: 30px 0;
+}
+.dark_background .wrapper .text_head .text_area {
+  width: 50%;
+}
+.dark_background .wrapper .text_head .text_area h1 {
+  padding-top: 100px;
+  font-size: 60px;
+}
+.dark_background .wrapper .text_head .text_area span {
+  font-weight: 300;
+}
+.dark_background .wrapper .text_head .text_area p {
+  width: 70%;
+  font-size: 12px, 5;
+  color: #03A7D3E6;
+  padding: 30px 0;
+}
+.dark_background .wrapper .text_head .img_head {
+  width: 55%;
+}

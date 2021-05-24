@@ -1,0 +1,98 @@
+.dark_background {
+    background: $blue_dark;     
+    color: $white_text;
+
+.wrapper {
+    padding: $padding*2;
+
+.navbar_header {
+    @include flex_display;
+    justify-content: space-between;
+    align-items: center;
+
+    .corporate_logo {
+        @include flex_display;
+        align-items: center;
+
+        img {
+            width: 160px;
+        }
+
+    }
+    
+    .nav_bar {
+        @include flex_display;
+        align-items: center;
+
+        .nav_link {
+            @include flex_display;
+            
+            li {
+                padding: 0 10px;
+                font-size: $font_title;
+
+                &:first-child a {
+                    color:tomato;
+                }
+                
+                a {
+                    color: $white_text;
+                }
+            }
+            
+        }
+
+        button {
+            margin-left: $padding*3;               
+        }
+    }
+    }
+
+    .buttons {
+        color: white;
+        padding: 15px 25px;
+        border-radius: 18px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    .azure_button {
+        border: #2955cc;
+        background: #2955cc;
+    }
+    
+    .coral_button {
+        border: #B6246E;
+        background: #F9636B;
+    }
+    .text_head {
+        @include flex_display;
+        padding: $padding*3 0;
+
+        .text_area {
+            width: 50%;
+            h1 {
+                padding-top: $padding*10;
+                font-size: $font_standard*5;
+            }
+
+            span {
+                font-weight: 300;
+            }
+
+            p {
+                width: 70%;
+                font-size: $font_standard*1,5;
+                color: #03A7D3E6;
+                padding: $padding*3 0;
+            }
+        }
+
+        .img_head {
+            width: 55%;
+        }
+
+         }
+    }
+}
+
