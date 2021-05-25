@@ -1,0 +1,112 @@
+
+
+    .wrap_footer {
+        @include flex_display;
+        color: $gray_footer;
+        justify-content: space-between;
+
+        div {
+            width: 22%;
+
+            h6 {
+                color: $white_text;
+                font-size: $font_title;
+                padding-bottom: $padding;
+            }
+
+            li {
+                padding: $padding 0;
+
+                a {
+                    color: $gray_footer;
+
+                    span {
+                        color: $white_text;
+                    }
+                }
+            }
+        }
+
+        .logo {
+            img {
+                width: 150px;
+            }
+            p {
+                padding: $padding*2 0;
+            }
+        }
+    }
+
+    .wrap_down_footer {
+        border-top: 1px solid $gray_footer;
+
+        .wrapper {
+            padding: 0;
+
+            .down_footer {
+                @include flex_display;
+                color: $gray_footer;
+                justify-content: space-between;
+                align-items: center;
+    
+                .reserved {
+                    padding: $padding*2 0;
+                    font-size: $font_standard;
+                    margin-left: $padding*1.5;
+                }
+    
+                .icons_social {
+
+                    ul {
+                        @include flex_display;
+
+                        li {
+                            padding: 0 $padding;
+
+                            a {
+                                color: $white_text;
+                            }
+                        }
+                    }
+    
+                }
+            }
+        }
+    }
+
+    footer {
+        position: relative;
+        padding-bottom: $padding;
+        padding-top: 250px;
+    }
+
+    .newsletter {
+        @include flex_display;
+        position: absolute;
+        align-items: center;
+        padding: $padding*4;
+        background: #B6246E;
+        top: -140px;
+        border-radius: 25px;
+        width: 75%;
+        height: 200px;
+
+        .text_newsletter {
+
+            h4 {
+                font-size: $font_standard*4;
+            }
+        }
+
+        .place_newsletter {
+
+            input {
+                padding: 18px 240px 18px 3px;
+                border-radius: 13px;
+            }
+
+            button {
+                margin-left: -140px;
+            }
+        }
+    }

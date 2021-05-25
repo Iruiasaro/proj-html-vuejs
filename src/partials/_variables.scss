@@ -6,7 +6,10 @@ $font_standard: 12px;
 $font_title: 22px;
 
 //background
-$blue_dark: rgba(5, 9, 60, 1);
+$blue_dark: linear-gradient(#0f0746, #040941);
 
 //text color
-$white_text: white;
+$white_text: rgb(248, 248, 248);
+
+//footer_text_color
+$gray_footer: rgb(107, 107, 107);

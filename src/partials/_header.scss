@@ -17,7 +17,6 @@
         img {
             width: 160px;
         }
-
     }
     
     .nav_bar {
@@ -39,13 +38,11 @@
                     color: $white_text;
                 }
             }
-            
         }
-
-        button {
-            margin-left: $padding*3;               
+            button {
+                margin-left: $padding*3;               
+            }
         }
-    }
     }
 
     .buttons {
@@ -71,6 +68,7 @@
 
         .text_area {
             width: 50%;
+
             h1 {
                 padding-top: $padding*10;
                 font-size: $font_standard*5;
@@ -91,8 +89,7 @@
         .img_head {
             width: 55%;
         }
-
-         }
+     }
     }
 }
 

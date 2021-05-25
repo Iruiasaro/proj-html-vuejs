@@ -27,8 +27,8 @@ a {
 }
 
 .dark_background {
-  background: #05093c;
-  color: white;
+  background: linear-gradient(#0f0746, #040941);
+  color: #f8f8f8;
 }
 .dark_background .wrapper {
   padding: 20px;
@@ -60,7 +60,7 @@ a {
   color: tomato;
 }
 .dark_background .wrapper .navbar_header .nav_bar .nav_link li a {
-  color: white;
+  color: #f8f8f8;
 }
 .dark_background .wrapper .navbar_header .nav_bar button {
   margin-left: 30px;
@@ -102,4 +102,88 @@ a {
 }
 .dark_background .wrapper .text_head .img_head {
   width: 55%;
+}
+
+.wrap_footer {
+  display: flex;
+  color: #6b6b6b;
+  justify-content: space-between;
+}
+.wrap_footer div {
+  width: 22%;
+}
+.wrap_footer div h6 {
+  color: #f8f8f8;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+.wrap_footer div li {
+  padding: 10px 0;
+}
+.wrap_footer div li a {
+  color: #6b6b6b;
+}
+.wrap_footer div li a span {
+  color: #f8f8f8;
+}
+.wrap_footer .logo img {
+  width: 150px;
+}
+.wrap_footer .logo p {
+  padding: 20px 0;
+}
+
+.wrap_down_footer {
+  border-top: 1px solid #6b6b6b;
+}
+.wrap_down_footer .wrapper {
+  padding: 0;
+}
+.wrap_down_footer .wrapper .down_footer {
+  display: flex;
+  color: #6b6b6b;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrap_down_footer .wrapper .down_footer .reserved {
+  padding: 20px 0;
+  font-size: 12px;
+  margin-left: 15px;
+}
+.wrap_down_footer .wrapper .down_footer .icons_social ul {
+  display: flex;
+}
+.wrap_down_footer .wrapper .down_footer .icons_social ul li {
+  padding: 0 10px;
+}
+.wrap_down_footer .wrapper .down_footer .icons_social ul li a {
+  color: #f8f8f8;
+}
+
+footer {
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 250px;
+}
+
+.newsletter {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  padding: 40px;
+  background: #B6246E;
+  top: -140px;
+  border-radius: 25px;
+  width: 75%;
+  height: 200px;
+}
+.newsletter .text_newsletter h4 {
+  font-size: 48px;
+}
+.newsletter .place_newsletter input {
+  padding: 18px 240px 18px 3px;
+  border-radius: 13px;
+}
+.newsletter .place_newsletter button {
+  margin-left: -140px;
 }
