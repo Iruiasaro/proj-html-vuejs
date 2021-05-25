@@ -1,0 +1,36 @@
+.wrapper h2 {
+    font-weight: 200;
+}
+
+.jumbo_one {
+    padding: $padding*5;
+    text-align: center;
+
+    .jumbo_one_text {
+        @include flex_display;
+        padding: $padding*8 0;
+
+        .jumbo_one_img {
+            padding: $padding;
+
+            h4 {
+                padding: 15px 0;
+                font-size: 30px;
+            }
+
+            img {
+                width: 155px;
+                height: 145px;
+            }
+
+            p {
+                margin: auto;
+                width: 65%;
+            }
+        }
+    }
+}
+
+.jumbo_one_subtitle {
+    color: tomato;
+}

@@ -26,12 +26,27 @@ a {
   text-decoration: none;
 }
 
+.buttons {
+  color: white;
+  padding: 15px 25px;
+  border-radius: 18px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.azure_button {
+  border: #2955cc;
+  background: #2955cc;
+}
+
+.coral_button {
+  border: #B6246E;
+  background: #F9636B;
+}
+
 .dark_background {
   background: linear-gradient(#0f0746, #040941);
   color: #f8f8f8;
-}
-.dark_background .wrapper {
-  padding: 20px;
 }
 .dark_background .wrapper .navbar_header {
   display: flex;
@@ -104,6 +119,38 @@ a {
   width: 55%;
 }
 
+.wrapper h2 {
+  font-weight: 200;
+}
+
+.jumbo_one {
+  padding: 50px;
+  text-align: center;
+}
+.jumbo_one .jumbo_one_text {
+  display: flex;
+  padding: 80px 0;
+}
+.jumbo_one .jumbo_one_text .jumbo_one_img {
+  padding: 10px;
+}
+.jumbo_one .jumbo_one_text .jumbo_one_img h4 {
+  padding: 15px 0;
+  font-size: 30px;
+}
+.jumbo_one .jumbo_one_text .jumbo_one_img img {
+  width: 155px;
+  height: 145px;
+}
+.jumbo_one .jumbo_one_text .jumbo_one_img p {
+  margin: auto;
+  width: 65%;
+}
+
+.jumbo_one_subtitle {
+  color: tomato;
+}
+
 .wrap_footer {
   display: flex;
   color: #6b6b6b;
@@ -172,7 +219,7 @@ footer {
   align-items: center;
   padding: 40px;
   background: #B6246E;
-  top: -140px;
+  top: -44px;
   border-radius: 25px;
   width: 75%;
   height: 200px;
