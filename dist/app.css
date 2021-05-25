@@ -151,6 +151,23 @@ a {
   color: tomato;
 }
 
+.jumbo_two {
+  align-items: center;
+  display: flex;
+}
+.jumbo_two .jumbo_two_img {
+  width: 50%;
+  padding: 50px;
+  position: relative;
+}
+.jumbo_two .jumbo_two_img .img_graph {
+  position: absolute;
+  width: 70%;
+}
+.jumbo_two .jumbo_two_img img {
+  width: 80%;
+}
+
 .wrap_footer {
   display: flex;
   color: #6b6b6b;
@@ -210,7 +227,7 @@ a {
 footer {
   position: relative;
   padding-bottom: 10px;
-  padding-top: 250px;
+  padding-top: 200px;
 }
 
 .newsletter {
@@ -219,10 +236,11 @@ footer {
   align-items: center;
   padding: 40px;
   background: #B6246E;
-  top: -44px;
+  top: -70px;
   border-radius: 25px;
   width: 75%;
-  height: 200px;
+  height: 190px;
+  justify-content: space-between;
 }
 .newsletter .text_newsletter h4 {
   font-size: 48px;

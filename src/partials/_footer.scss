@@ -75,7 +75,7 @@
     footer {
         position: relative;
         padding-bottom: $padding;
-        padding-top: 250px;
+        padding-top: $padding*20;
     }
 
     .newsletter {
@@ -84,10 +84,11 @@
         align-items: center;
         padding: $padding*4;
         background: #B6246E;
-        top: -44px;
+        top: -70px;
         border-radius: 25px;
         width: 75%;
-        height: 200px;
+        height: 190px;
+        justify-content: space-between;
 
         .text_newsletter {
 

@@ -34,3 +34,25 @@
 .jumbo_one_subtitle {
     color: tomato;
 }
+
+    .jumbo_two {
+        align-items: center;
+        @include flex_display;
+
+        .jumbo_two_img {
+            width: 50%;
+            padding: $padding*5;
+            position: relative;
+            
+            .img_graph {
+                position: absolute;
+                width: 70%;
+            }
+
+            img {
+                width: 80%;
+        }
+
+    }
+}
+
