@@ -46,7 +46,7 @@
             
             .img_graph {
                 position: absolute;
-                width: 70%;
+                width: 50%;
             }
 
             img {
@@ -56,3 +56,77 @@
     }
 }
 
+.jumbo_three {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding: $padding*3 0;
+
+
+    .jumbo_three_text {
+        @include flex_display;
+        padding: 3$padding*2,5 0;
+        align-items: center;
+        justify-content: space-between;
+
+        .direction {
+
+            .arrow {
+                border: 3px solid pink;
+                border-radius: 50%;
+                cursor: pointer;
+                padding: $padding;
+                margin: 0 $padding;
+
+                i {
+                    color: pink;
+                }
+            }
+        }
+    }
+    .jumbo_three_center {
+        display: flex;
+        padding: $padding*3 0;
+        margin: 0 -30%;
+
+       .card_jumbo_three {
+           background-color: $white_text;
+           border-radius: 18px;
+           margin: 0 $padding*2;
+           overflow: hidden;
+
+            img {
+                width: 430px
+                border-radius: 18px;
+            }
+
+            .jumbo_three_content {
+                @include flex_display;
+                justify-content: space-between;
+                padding: $padding*2;
+
+                .jumbo_three_card_title {
+                    font-weight: bold;
+                }
+
+                .jumbo_three_text_down {
+                    color: $gray_footer;
+                }
+            }
+       }
+    }
+
+    .circle_selector {
+        padding: $padding*3 0 $padding*5 0;
+
+
+        i {
+            margin: 0 $padding;
+            font-size: $font_standard;
+            color: gray;
+
+            &:first-child {
+                color: pink;
+            }
+        }
+    }
+}

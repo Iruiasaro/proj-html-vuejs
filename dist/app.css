@@ -44,6 +44,23 @@ a {
   background: #F9636B;
 }
 
+.text_area {
+  width: 50%;
+}
+.text_area h1 {
+  padding-top: 100px;
+  font-size: 60px;
+}
+.text_area span {
+  font-weight: 300;
+}
+.text_area p {
+  width: 70%;
+  font-size: 12px, 5;
+  color: #03A7D3E6;
+  padding: 30px 0;
+}
+
 .dark_background {
   background: linear-gradient(#0f0746, #040941);
   color: #f8f8f8;
@@ -99,22 +116,6 @@ a {
   display: flex;
   padding: 30px 0;
 }
-.dark_background .wrapper .text_head .text_area {
-  width: 50%;
-}
-.dark_background .wrapper .text_head .text_area h1 {
-  padding-top: 100px;
-  font-size: 60px;
-}
-.dark_background .wrapper .text_head .text_area span {
-  font-weight: 300;
-}
-.dark_background .wrapper .text_head .text_area p {
-  width: 70%;
-  font-size: 12px, 5;
-  color: #03A7D3E6;
-  padding: 30px 0;
-}
 .dark_background .wrapper .text_head .img_head {
   width: 55%;
 }
@@ -162,10 +163,69 @@ a {
 }
 .jumbo_two .jumbo_two_img .img_graph {
   position: absolute;
-  width: 70%;
+  width: 50%;
 }
 .jumbo_two .jumbo_two_img img {
   width: 80%;
+}
+
+.jumbo_three {
+  overflow: hidden;
+  background-color: white;
+  padding: 30px 0;
+}
+.jumbo_three .jumbo_three_text {
+  display: flex;
+  padding: 3 20px, 5 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.jumbo_three .jumbo_three_text .direction .arrow {
+  border: 3px solid pink;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 10px;
+}
+.jumbo_three .jumbo_three_text .direction .arrow i {
+  color: pink;
+}
+.jumbo_three .jumbo_three_center {
+  padding: 30px 0;
+  display: flex;
+  margin: 0 -26%;
+}
+.jumbo_three .jumbo_three_center .card_jumbo_three {
+  background-color: #f8f8f8;
+  border-radius: 18px;
+  overflow: hidden;
+  margin: 0 20px;
+}
+.jumbo_three .jumbo_three_center .card_jumbo_three img {
+  border-radius: 20px;
+  width: 500px;
+}
+.jumbo_three .jumbo_three_center .card_jumbo_three .jumbo_three_content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.jumbo_three .jumbo_three_center .card_jumbo_three .jumbo_three_content .jumbo_three_card_title {
+  font-weight: bold;
+}
+.jumbo_three .jumbo_three_center .card_jumbo_three .jumbo_three_content .jumbo_three_text_down {
+  color: #6b6b6b;
+}
+.jumbo_three .circle_selector {
+  text-align: center;
+  padding: 30px 0 50px 0;
+}
+.jumbo_three .circle_selector i {
+  margin: 0 10px;
+  font-size: 12px;
+  color: gray;
+}
+.jumbo_three .circle_selector i:first-child {
+  color: pink;
 }
 
 .wrap_footer {

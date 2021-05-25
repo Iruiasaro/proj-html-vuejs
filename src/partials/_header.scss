@@ -66,25 +66,7 @@
         @include flex_display;
         padding: $padding*3 0;
 
-        .text_area {
-            width: 50%;
-
-            h1 {
-                padding-top: $padding*10;
-                font-size: $font_standard*5;
-            }
-
-            span {
-                font-weight: 300;
-            }
-
-            p {
-                width: 70%;
-                font-size: $font_standard*1,5;
-                color: #03A7D3E6;
-                padding: $padding*3 0;
-            }
-        }
+        
 
         .img_head {
             width: 55%;
