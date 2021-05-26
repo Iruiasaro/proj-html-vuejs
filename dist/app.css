@@ -61,6 +61,37 @@ a {
   padding: 30px 0;
 }
 
+.arrow_up {
+  position: fixed;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  bottom: 30px;
+  right: 125px;
+}
+.arrow_up a {
+  color: #000000;
+}
+
+.assistant {
+  position: fixed;
+  border-radius: 50%;
+  background-color: #527CEB;
+  text-align: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  bottom: 10px;
+  right: 55px;
+}
+.assistant i {
+  color: #f8f8f8;
+}
+
 .dark_background {
   background: linear-gradient(#0f0746, #040941);
   color: #f8f8f8;
@@ -229,20 +260,20 @@ a {
   color: pink;
 }
 
-.price-list {
+.jumbo_four_container {
   position: relative;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 100px;
 }
-.price-list h2 {
+.jumbo_four_container h2 {
   color: #f8f8f8;
 }
-.price-list .jumbo_four {
+.jumbo_four_container .jumbo_four {
   display: flex;
   padding-top: 30px;
 }
-.price-list .jumbo_four .jumbo_four_wrap {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap {
   position: relative;
   background-color: #f8f8f8;
   border-radius: 18px;
@@ -250,40 +281,40 @@ a {
   padding: 30px 80px;
   margin-right: 50px;
 }
-.price-list .jumbo_four .jumbo_four_wrap h3 {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap h3 {
   font-size: 44px;
   position: relative;
 }
-.price-list .jumbo_four .jumbo_four_wrap p {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap p {
   color: #000000;
   padding: 10px 0;
   font-weight: bold;
 }
-.price-list .jumbo_four .jumbo_four_wrap .month_pay {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap .month_pay {
   font-size: 88px;
   padding-bottom: 10px;
   font-weight: bold;
 }
-.price-list .jumbo_four .jumbo_four_wrap .dollar {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap .dollar {
   text-align: left;
 }
-.price-list .jumbo_four .jumbo_four_wrap .jumbo_four_text {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap .jumbo_four_text {
   padding: 10px 0;
 }
-.price-list .jumbo_four .jumbo_four_wrap .jumbo_four_text span {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap .jumbo_four_text span {
   color: #6b6b6b;
 }
-.price-list .jumbo_four .jumbo_four_wrap button {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap button {
   margin-top: 30px;
   box-shadow: 0 0 20px pink;
 }
-.price-list .jumbo_four .jumbo_four_wrap button span {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap button span {
   padding-left: 10px;
 }
-.price-list .jumbo_four .jumbo_four_wrap button span i {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap button span i {
   vertical-align: middle;
 }
-.price-list .jumbo_four .jumbo_four_wrap .month_pay_background {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap .month_pay_background {
   position: absolute;
   top: -50px;
   right: -18px;
@@ -291,20 +322,20 @@ a {
   color: #22222214;
   font-weight: 700;
 }
-.price-list .jumbo_four .jumbo_four_wrap.bg-pink {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap.bg-pink {
   background: pink;
   color: #f8f8f8;
 }
-.price-list .jumbo_four .jumbo_four_wrap.bg-pink p {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap.bg-pink p {
   color: #f8f8f8;
 }
-.price-list .jumbo_four .jumbo_four_wrap.bg-pink .month_pay::after {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap.bg-pink .month_pay::after {
   color: #f8f8f8;
 }
-.price-list .jumbo_four .jumbo_four_wrap.bg-pink .jumbo_four_text span {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap.bg-pink .jumbo_four_text span {
   color: #f8f8f8;
 }
-.price-list .jumbo_four .jumbo_four_wrap.bg-pink button {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap.bg-pink button {
   color: coral;
 }
 

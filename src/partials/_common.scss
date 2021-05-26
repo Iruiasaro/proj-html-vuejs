@@ -64,3 +64,39 @@ a {
         padding: $padding*3 0;
     }
 }
+
+.arrow_up {
+    position: fixed;
+    border-radius: 50%;
+    background-color: $white_text;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    bottom: $padding*3;
+    right: 125px;
+  
+
+    a {
+        color: #000000;
+    }
+}
+
+
+.assistant {
+    position: fixed;
+    border-radius: 50%;
+    background-color: #527CEB;
+    text-align: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    bottom: $padding;
+    right: 55px;
+
+    i {
+        color: $white_text;
+    }
+}
+

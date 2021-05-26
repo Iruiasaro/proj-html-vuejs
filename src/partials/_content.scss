@@ -2,6 +2,8 @@
     font-weight: 200;
 }
 
+//section_one
+
 .jumbo_one {
     padding: $padding*5;
     text-align: center;
@@ -31,6 +33,7 @@
     }
 }
 
+//section_two
 .jumbo_one_subtitle {
     color: tomato;
 }
@@ -56,6 +59,7 @@
     }
 }
 
+//section_three
 .jumbo_three {
     overflow: hidden;
     background-color: rgb(255, 255, 255);
@@ -132,7 +136,7 @@
     }
 }
 
-.price-list {
+.jumbo_four_container {
     position: relative;
     text-align: center;
     padding-top: $padding*3;
