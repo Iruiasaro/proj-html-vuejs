@@ -287,10 +287,6 @@
                 .jumbo_five_text_up {
                     color: $white_text;
 
-                  
-
-               
-                    
                     .jumbo_five_data {
                         color: $white_text;
         
@@ -338,6 +334,7 @@
                     }
                     
                 }
+
                 .jumbo_five_text_down {
                     text-align: end;
                 }
@@ -405,4 +402,15 @@
 
 .month {
     padding-bottom: $padding;
+}
+
+.text_down {
+    margin-top: 130px;
+}
+
+.jumbo_three_text {
+
+    h3 {
+    color: coral;
+    }
 }

@@ -464,6 +464,14 @@ a {
   padding-bottom: 10px;
 }
 
+.text_down {
+  margin-top: 130px;
+}
+
+.jumbo_three_text h3 {
+  color: coral;
+}
+
 .wrap_footer {
   display: flex;
   color: #6b6b6b;
