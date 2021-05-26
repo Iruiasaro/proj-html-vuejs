@@ -374,6 +374,45 @@ a {
   text-align: end;
 }
 
+.jumbo_six {
+  background-color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.jumbo_six .jumbo_six_wrap {
+  display: flex;
+  padding-top: 40px;
+}
+.jumbo_six .jumbo_six_wrap .jumbo_six_content {
+  padding: 10px;
+}
+.jumbo_six .jumbo_six_wrap .jumbo_six_content .icon_star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.jumbo_six .jumbo_six_wrap .jumbo_six_content .icon_star i {
+  color: #B6246E;
+}
+.jumbo_six .jumbo_six_wrap .jumbo_six_content img {
+  width: 95px;
+  border-radius: 50%;
+  border: 6px solid #B6246E;
+}
+.jumbo_six .jumbo_six_wrap .jumbo_six_content .management {
+  color: #000000;
+  margin-top: 20px;
+  padding: 5px;
+  font-weight: bold;
+}
+.jumbo_six .logo_clients {
+  display: flex;
+  padding: 80px 0;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
 .wrap_footer {
   display: flex;
   color: #6b6b6b;

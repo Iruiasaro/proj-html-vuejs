@@ -321,3 +321,52 @@
         }
     }
 }
+
+.jumbo_six {
+    background-color: white;
+    text-align: center;
+    padding: $padding 0;
+
+    .jumbo_six_wrap {
+        @include flex_display;
+        padding-top: $padding*4;
+
+        .jumbo_six_content {
+            padding: $padding;
+
+            .icon_star {
+                @include flex_display;
+                justify-content: center;
+                align-items: center;
+                padding: $padding*3;
+
+                i {
+                    color: #B6246E;
+                }
+                
+            }
+
+            img {
+                width: 95px;
+                border-radius: 50%;
+                border: 6px solid #B6246E;
+
+            }
+
+            .management {
+                color: #000000;
+                margin-top: $padding*2;
+                padding: $padding/2;
+                font-weight: bold;
+            }
+        }
+
+    }
+
+    .logo_clients {
+        @include flex_display;
+        padding: $padding*8 0;
+        align-items: baseline;
+        justify-content: space-around;
+    }
+}
