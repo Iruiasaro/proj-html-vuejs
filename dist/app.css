@@ -308,6 +308,72 @@ a {
   color: coral;
 }
 
+.jumbo_five {
+  background-color: white;
+  padding-top: 10px;
+  text-align: center;
+}
+.jumbo_five .jumbo_five_wrap {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.jumbo_five .jumbo_five_wrap .jumbo_one_text {
+  background: linear-gradient(#0f0746, #040941);
+  border-radius: 18px;
+  width: 25%;
+  height: 380px;
+}
+.jumbo_five .jumbo_five_wrap .jumbo_one_text .jumbo_four_wrap {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: space-around;
+  text-align: left;
+}
+.jumbo_five .jumbo_five_wrap .jumbo_one_text .jumbo_four_wrap .jumbo_five_text_up {
+  color: #f8f8f8;
+}
+.jumbo_five .jumbo_five_wrap .jumbo_one_text .jumbo_four_wrap .jumbo_five_text_up .jumbo_five_data {
+  color: #f8f8f8;
+}
+.jumbo_five .jumbo_five_wrap .jumbo_one_text .jumbo_four_wrap .jumbo_five_text_up .jumbo_five_data .circel_separator {
+  vertical-align: middle;
+  font-size: 2px;
+}
+.jumbo_five .jumbo_five_wrap .jumbo_one_text .jumbo_four_wrap .jumbo_five_text_up .jumbo_five_data .author {
+  color: #f8f8f8;
+}
+.jumbo_five .jumbo_five_wrap .jumbo_one_text .jumbo_four_wrap .jumbo_five_text_up h4 {
+  font-size: 22px;
+  padding: 20px 0;
+}
+.jumbo_five .jumbo_five_wrap .jumbo_one_text .jumbo_four_wrap .jumbo_five_text_up p {
+  font-size: 12px;
+  color: #f8f8f8;
+}
+.jumbo_five .jumbo_five_wrap .jumbo_one_text .jumbo_four_wrap .jumbo_five_text_down button {
+  margin-top: 30px;
+  color: black;
+}
+.jumbo_five .jumbo_five_wrap .jumbo_one_text.img_background {
+  width: 38%;
+  background-image: url(/images/headway-537308-unsplash-1380x703.jpg?25eff6bd4c59d5dd6625434c45c6f76e);
+  background-size: cover;
+}
+.jumbo_five .jumbo_five_wrap .jumbo_one_text.img_background .jumbo_five_text_up {
+  text-align: left;
+  width: 65%;
+}
+.jumbo_five .jumbo_five_wrap .jumbo_one_text.img_background .jumbo_five_text_up h4 {
+  padding: 10px 0;
+  font-size: 22px;
+}
+.jumbo_five .jumbo_five_wrap .jumbo_one_text.img_background .jumbo_five_text_down {
+  text-align: end;
+}
+
 .wrap_footer {
   display: flex;
   color: #6b6b6b;

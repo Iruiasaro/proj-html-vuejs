@@ -237,3 +237,87 @@
         }
     }
 }
+
+.jumbo_five {
+    background-color: white;
+    padding-top: $padding;
+    text-align: center;
+
+
+    .jumbo_five_wrap {
+        padding: $padding*5 0;
+        @include flex_display;
+        justify-content: space-between;
+
+        .jumbo_one_text {
+            background: $blue_dark;
+            border-radius: 18px;            
+            width: 25%;
+            height: 380px;
+
+
+            .jumbo_four_wrap {
+                @include flex_display;
+                height: 100%;
+                flex-direction: column;
+                padding: $padding*3;
+                justify-content: space-around;
+                text-align: left;
+                
+                .jumbo_five_text_up {
+                    color: $white_text;
+                    
+                    .jumbo_five_data {
+                        color: $white_text;
+        
+                        .circel_separator {
+                            vertical-align: middle;
+                            font-size: 2px;
+                        }
+        
+                        .author {
+                            color: $white_text;
+                        }
+                    }
+
+                    h4 {
+                        font-size: $font_title;
+                        padding: $padding*2 0;
+                    }
+
+                    p {
+                        font-size: $font_standard;
+                        color: $white_text;
+                    }
+                }
+
+                .jumbo_five_text_down {
+                    button {
+                        margin-top: 30px;
+                        color: black;
+                    }
+                }
+            }
+
+            &.img_background {
+                width: 38%;
+                background-image: url('../../img/headway-537308-unsplash-1380x703.jpg');
+                background-size: cover;
+
+                .jumbo_five_text_up {
+                    text-align: left;
+                    width: 65%;
+
+                    h4 {
+                        padding: $padding 0;
+                        font-size: $font_title;
+                    }
+                    
+                }
+                .jumbo_five_text_down {
+                    text-align: end;
+                }
+            }
+        }
+    }
+}
