@@ -95,7 +95,7 @@
            overflow: hidden;
 
             img {
-                width: 430px
+                width: 430px;
                 border-radius: 18px;
             }
 
@@ -117,6 +117,7 @@
 
     .circle_selector {
         padding: $padding*3 0 $padding*5 0;
+        text-align: center;
 
 
         i {
@@ -126,6 +127,112 @@
 
             &:first-child {
                 color: pink;
+            }
+        }
+    }
+}
+
+.price-list {
+    position: relative;
+    text-align: center;
+    padding-top: $padding*3;
+    padding-bottom: $padding*10;
+
+    h2 {
+        color: $white_text;
+    }
+
+    .jumbo_four {
+        @include flex_display;
+        padding-top: $padding*3;
+        
+
+        .jumbo_four_wrap {
+            position: relative;
+            background-color: $white_text;
+            border-radius: 18px;
+            color:black;
+            padding: $padding*3 $padding*8;
+            margin-right: $padding*5;
+
+            h3 {
+                font-size: $font_title*2;
+                position: relative;
+            }
+
+            p {
+                color: #000000;
+                padding: $padding 0;
+                font-weight: bold;
+            }
+
+            .month_pay {
+                font-size: $font_title*4;
+                padding-bottom: $padding;
+                font-weight: bold;
+
+            }
+
+        .dollar {
+            text-align: left;
+        }
+
+
+
+            .jumbo_four_text {
+                padding: 10px 0;
+                span {
+                    color: $gray_footer;
+                }
+            }
+
+            button {
+                margin-top: 30px;
+                box-shadow: 0 0 20px pink;
+
+                span {
+                    padding-left: $padding;
+                    
+                    i {
+                        vertical-align: middle;
+                    }
+                }
+            }
+
+            .month_pay_background {
+                position: absolute;
+                top: -50px;
+                right: -18px;
+                font-size: $font_title*13;
+                color: #22222214;
+                font-weight: 700;
+
+            }
+
+            &.bg-pink {
+                background: pink;
+                color: $white_text;
+
+                
+                p {
+                    color: $white_text;
+                }
+
+                .month_pay {
+                    &::after {
+                        color:$white_text;
+                    }
+                }
+
+                .jumbo_four_text {
+                    span {
+                        color: $white_text;
+                    }
+                }
+    
+                button {
+                    color: coral;
+                }
             }
         }
     }
