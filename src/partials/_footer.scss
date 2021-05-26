@@ -27,7 +27,7 @@
 
         .logo {
             img {
-                width: 150px;
+                width: 135px;
             }
             p {
                 padding: $padding*2 0;
@@ -81,31 +81,31 @@
     .newsletter {
         @include flex_display;
         position: absolute;
-        align-items: center;
         padding: $padding*4;
-        background: #B6246E;
+        background: $coral_button;
         top: -70px;
-        border-radius: 25px;
+        border-radius: 22px;
         width: 75%;
         height: 190px;
-        justify-content: space-between;
+        align-items: center;
+
 
         .text_newsletter {
 
             h4 {
-                font-size: $font_standard*4;
+                font-size: $font_standard*3;
             }
         }
 
         .place_newsletter {
 
             input {
-                padding: 18px 240px 18px 3px;
                 border-radius: 13px;
+                padding: $padding*3 $padding*18 $padding*2 $padding*5;
             }
 
             button {
-                margin-left: -140px;
+                margin-left: -135px;
             }
         }
     }

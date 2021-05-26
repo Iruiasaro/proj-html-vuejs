@@ -1,4 +1,4 @@
-.wrapper h2 {
+.wrepper h2 {
     font-weight: 200;
 }
 
@@ -33,10 +33,20 @@
     }
 }
 
-//section_two
 .jumbo_one_subtitle {
-    color: tomato;
+    color: #f74b6e;
 }
+
+.jumbo_five {
+    h2 {
+        font-weight: 900;
+
+    span {
+        font-weight: 400;
+    }
+    }
+}
+//section_two
 
     .jumbo_two {
         align-items: center;
@@ -120,14 +130,15 @@
     }
 
     .circle_selector {
-        padding: $padding*3 0 $padding*5 0;
+        padding: $padding;
         text-align: center;
 
 
         i {
-            margin: 0 $padding;
             font-size: $font_standard;
             color: gray;
+            margin: 0 $padding/3;
+
 
             &:first-child {
                 color: pink;
@@ -137,10 +148,14 @@
 }
 
 .jumbo_four_container {
-    position: relative;
     text-align: center;
     padding-top: $padding*3;
     padding-bottom: $padding*10;
+    margin: auto;
+
+    .wrapper{
+        width: 100%;
+    }
 
     h2 {
         color: $white_text;
@@ -149,10 +164,10 @@
     .jumbo_four {
         @include flex_display;
         padding-top: $padding*3;
+
         
 
         .jumbo_four_wrap {
-            position: relative;
             background-color: $white_text;
             border-radius: 18px;
             color:black;
@@ -172,27 +187,29 @@
 
             .month_pay {
                 font-size: $font_title*4;
-                padding-bottom: $padding;
+                padding: $padding;
                 font-weight: bold;
 
             }
 
         .dollar {
-            text-align: left;
+            margin-top: $padding*1.5;
+            margin-right: $padding*10;
+            font-size: $font_standard;
         }
 
 
 
             .jumbo_four_text {
-                padding: 10px 0;
+                padding: $padding 0;
+
                 span {
                     color: $gray_footer;
                 }
             }
 
             button {
-                margin-top: 30px;
-                box-shadow: 0 0 20px pink;
+                margin-top: $padding*2;
 
                 span {
                     padding-left: $padding;
@@ -213,8 +230,8 @@
 
             }
 
-            &.bg-pink {
-                background: pink;
+            &.jumbo_four_central_card {
+                background: $coral_button;
                 color: $white_text;
 
                 
@@ -249,9 +266,9 @@
 
 
     .jumbo_five_wrap {
-        padding: $padding*5 0;
         @include flex_display;
         justify-content: space-between;
+        padding: $padding*4 0;
 
         .jumbo_one_text {
             background: $blue_dark;
@@ -259,22 +276,25 @@
             width: 25%;
             height: 380px;
 
-
             .jumbo_four_wrap {
                 @include flex_display;
-                height: 100%;
                 flex-direction: column;
-                padding: $padding*3;
                 justify-content: space-around;
+                height: 100%;
+                padding: $padding*3;
                 text-align: left;
-                
+
                 .jumbo_five_text_up {
                     color: $white_text;
+
+                  
+
+               
                     
                     .jumbo_five_data {
                         color: $white_text;
         
-                        .circel_separator {
+                        .circle_separator {
                             vertical-align: middle;
                             font-size: 2px;
                         }
@@ -331,6 +351,14 @@
     text-align: center;
     padding: $padding 0;
 
+    h2 {
+        font-weight: 900;
+    
+        span {
+            font-weight: 400;
+        }
+    }
+
     .jumbo_six_wrap {
         @include flex_display;
         padding-top: $padding*4;
@@ -373,4 +401,8 @@
         align-items: baseline;
         justify-content: space-around;
     }
+}
+
+.month {
+    padding-bottom: $padding;
 }

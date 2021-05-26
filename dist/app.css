@@ -10,7 +10,7 @@ body {
 
 .wrapper {
   padding: 20px;
-  width: 85%;
+  width: 90%;
   margin: auto;
 }
 
@@ -28,20 +28,20 @@ a {
 
 .buttons {
   color: white;
-  padding: 15px 25px;
   border-radius: 18px;
-  font-size: 15px;
+  font-size: 12px;
+  padding: 10px 20px;
   cursor: pointer;
 }
 
 .azure_button {
   border: #2955cc;
-  background: #2955cc;
+  background: linear-gradient(#206c97, #0a3b57);
 }
 
 .coral_button {
   border: #B6246E;
-  background: #F9636B;
+  background: linear-gradient(#f74b6e, #ca3d59);
 }
 
 .text_area {
@@ -69,11 +69,11 @@ a {
   width: 25px;
   height: 25px;
   line-height: 25px;
-  bottom: 30px;
-  right: 125px;
+  bottom: 50px;
+  right: 95px;
 }
 .arrow_up a {
-  color: #000000;
+  color: #222222;
 }
 
 .assistant {
@@ -85,7 +85,7 @@ a {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  bottom: 10px;
+  bottom: 30px;
   right: 55px;
 }
 .assistant i {
@@ -137,11 +137,11 @@ a {
 }
 .dark_background .wrapper .azure_button {
   border: #2955cc;
-  background: #2955cc;
+  background: linear-gradient(#206c97, #0a3b57);
 }
 .dark_background .wrapper .coral_button {
   border: #B6246E;
-  background: #F9636B;
+  background: linear-gradient(#f74b6e, #ca3d59);
 }
 .dark_background .wrapper .text_head {
   display: flex;
@@ -151,7 +151,7 @@ a {
   width: 55%;
 }
 
-.wrapper h2 {
+.wrepper h2 {
   font-weight: 200;
 }
 
@@ -180,7 +180,14 @@ a {
 }
 
 .jumbo_one_subtitle {
-  color: tomato;
+  color: #f74b6e;
+}
+
+.jumbo_five h2 {
+  font-weight: 900;
+}
+.jumbo_five h2 span {
+  font-weight: 400;
 }
 
 .jumbo_two {
@@ -248,23 +255,26 @@ a {
   color: #6b6b6b;
 }
 .jumbo_three .circle_selector {
-  padding: 30px 0 50px 0;
+  padding: 10px;
   text-align: center;
 }
 .jumbo_three .circle_selector i {
-  margin: 0 10px;
   font-size: 12px;
   color: gray;
+  margin: 0 3.3333333333px;
 }
 .jumbo_three .circle_selector i:first-child {
   color: pink;
 }
 
 .jumbo_four_container {
-  position: relative;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 100px;
+  margin: auto;
+}
+.jumbo_four_container .wrapper {
+  width: 100%;
 }
 .jumbo_four_container h2 {
   color: #f8f8f8;
@@ -274,7 +284,6 @@ a {
   padding-top: 30px;
 }
 .jumbo_four_container .jumbo_four .jumbo_four_wrap {
-  position: relative;
   background-color: #f8f8f8;
   border-radius: 18px;
   color: black;
@@ -292,11 +301,13 @@ a {
 }
 .jumbo_four_container .jumbo_four .jumbo_four_wrap .month_pay {
   font-size: 88px;
-  padding-bottom: 10px;
+  padding: 10px;
   font-weight: bold;
 }
 .jumbo_four_container .jumbo_four .jumbo_four_wrap .dollar {
-  text-align: left;
+  margin-top: 15px;
+  margin-right: 100px;
+  font-size: 12px;
 }
 .jumbo_four_container .jumbo_four .jumbo_four_wrap .jumbo_four_text {
   padding: 10px 0;
@@ -305,8 +316,7 @@ a {
   color: #6b6b6b;
 }
 .jumbo_four_container .jumbo_four .jumbo_four_wrap button {
-  margin-top: 30px;
-  box-shadow: 0 0 20px pink;
+  margin-top: 20px;
 }
 .jumbo_four_container .jumbo_four .jumbo_four_wrap button span {
   padding-left: 10px;
@@ -322,20 +332,20 @@ a {
   color: #22222214;
   font-weight: 700;
 }
-.jumbo_four_container .jumbo_four .jumbo_four_wrap.bg-pink {
-  background: pink;
+.jumbo_four_container .jumbo_four .jumbo_four_wrap.jumbo_four_central_card {
+  background: linear-gradient(#f74b6e, #ca3d59);
   color: #f8f8f8;
 }
-.jumbo_four_container .jumbo_four .jumbo_four_wrap.bg-pink p {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap.jumbo_four_central_card p {
   color: #f8f8f8;
 }
-.jumbo_four_container .jumbo_four .jumbo_four_wrap.bg-pink .month_pay::after {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap.jumbo_four_central_card .month_pay::after {
   color: #f8f8f8;
 }
-.jumbo_four_container .jumbo_four .jumbo_four_wrap.bg-pink .jumbo_four_text span {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap.jumbo_four_central_card .jumbo_four_text span {
   color: #f8f8f8;
 }
-.jumbo_four_container .jumbo_four .jumbo_four_wrap.bg-pink button {
+.jumbo_four_container .jumbo_four .jumbo_four_wrap.jumbo_four_central_card button {
   color: coral;
 }
 
@@ -345,9 +355,9 @@ a {
   text-align: center;
 }
 .jumbo_five .jumbo_five_wrap {
-  padding: 50px 0;
   display: flex;
   justify-content: space-between;
+  padding: 40px 0;
 }
 .jumbo_five .jumbo_five_wrap .jumbo_one_text {
   background: linear-gradient(#0f0746, #040941);
@@ -357,10 +367,10 @@ a {
 }
 .jumbo_five .jumbo_five_wrap .jumbo_one_text .jumbo_four_wrap {
   display: flex;
-  height: 100%;
   flex-direction: column;
-  padding: 30px;
   justify-content: space-around;
+  height: 100%;
+  padding: 30px;
   text-align: left;
 }
 .jumbo_five .jumbo_five_wrap .jumbo_one_text .jumbo_four_wrap .jumbo_five_text_up {
@@ -369,7 +379,7 @@ a {
 .jumbo_five .jumbo_five_wrap .jumbo_one_text .jumbo_four_wrap .jumbo_five_text_up .jumbo_five_data {
   color: #f8f8f8;
 }
-.jumbo_five .jumbo_five_wrap .jumbo_one_text .jumbo_four_wrap .jumbo_five_text_up .jumbo_five_data .circel_separator {
+.jumbo_five .jumbo_five_wrap .jumbo_one_text .jumbo_four_wrap .jumbo_five_text_up .jumbo_five_data .circle_separator {
   vertical-align: middle;
   font-size: 2px;
 }
@@ -410,6 +420,12 @@ a {
   text-align: center;
   padding: 10px 0;
 }
+.jumbo_six h2 {
+  font-weight: 900;
+}
+.jumbo_six h2 span {
+  font-weight: 400;
+}
 .jumbo_six .jumbo_six_wrap {
   display: flex;
   padding-top: 40px;
@@ -444,6 +460,10 @@ a {
   justify-content: space-around;
 }
 
+.month {
+  padding-bottom: 10px;
+}
+
 .wrap_footer {
   display: flex;
   color: #6b6b6b;
@@ -467,7 +487,7 @@ a {
   color: #f8f8f8;
 }
 .wrap_footer .logo img {
-  width: 150px;
+  width: 135px;
 }
 .wrap_footer .logo p {
   padding: 20px 0;
@@ -509,22 +529,21 @@ footer {
 .newsletter {
   display: flex;
   position: absolute;
-  align-items: center;
   padding: 40px;
-  background: #B6246E;
+  background: linear-gradient(#f74b6e, #ca3d59);
   top: -70px;
-  border-radius: 25px;
+  border-radius: 22px;
   width: 75%;
   height: 190px;
-  justify-content: space-between;
+  align-items: center;
 }
 .newsletter .text_newsletter h4 {
-  font-size: 48px;
+  font-size: 36px;
 }
 .newsletter .place_newsletter input {
-  padding: 18px 240px 18px 3px;
   border-radius: 13px;
+  padding: 30px 180px 20px 50px;
 }
 .newsletter .place_newsletter button {
-  margin-left: -140px;
+  margin-left: -135px;
 }
