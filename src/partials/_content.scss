@@ -71,16 +71,12 @@
 
 //section_three
 .jumbo_three {
-    overflow: hidden;
     background-color: rgb(255, 255, 255);
-    padding: $padding*3 0;
-
+    padding-left: 100px;
 
     .jumbo_three_text {
-        @include flex_display;
-        padding: 3$padding*2,5 0;
-        align-items: center;
-        justify-content: space-between;
+        display: flex;
+        justify-content: space-around;
 
         .direction {
 
@@ -99,6 +95,7 @@
     }
     .jumbo_three_center {
         display: flex;
+        justify-content: center;
         padding: $padding*3 0;
         margin: 0 -30%;
 
@@ -153,9 +150,6 @@
     padding-bottom: $padding*10;
     margin: auto;
 
-    .wrapper{
-        width: 100%;
-    }
 
     h2 {
         color: $white_text;
@@ -164,6 +158,7 @@
     .jumbo_four {
         @include flex_display;
         padding-top: $padding*3;
+        justify-content: center;
 
         
 

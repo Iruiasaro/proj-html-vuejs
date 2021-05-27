@@ -95,6 +95,7 @@ a {
 .dark_background {
   background: linear-gradient(#0f0746, #040941);
   color: #f8f8f8;
+  margin: auto;
 }
 .dark_background .wrapper .navbar_header {
   display: flex;
@@ -208,15 +209,12 @@ a {
 }
 
 .jumbo_three {
-  overflow: hidden;
   background-color: white;
-  padding: 30px 0;
+  padding-left: 100px;
 }
 .jumbo_three .jumbo_three_text {
   display: flex;
-  padding: 3 20px, 5 0;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .jumbo_three .jumbo_three_text .direction .arrow {
   border: 3px solid pink;
@@ -230,6 +228,7 @@ a {
 }
 .jumbo_three .jumbo_three_center {
   display: flex;
+  justify-content: center;
   padding: 30px 0;
   margin: 0 -30%;
 }
@@ -273,15 +272,13 @@ a {
   padding-bottom: 100px;
   margin: auto;
 }
-.jumbo_four_container .wrapper {
-  width: 100%;
-}
 .jumbo_four_container h2 {
   color: #f8f8f8;
 }
 .jumbo_four_container .jumbo_four {
   display: flex;
   padding-top: 30px;
+  justify-content: center;
 }
 .jumbo_four_container .jumbo_four .jumbo_four_wrap {
   background-color: #f8f8f8;
